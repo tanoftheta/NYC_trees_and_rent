@@ -32,13 +32,17 @@ My data cleaning included the following tasks:
 - Grouped data by relevant metrics  
 
 
-## EDA: 
+## EDA:  
+
 In my exploratory data analysis I did the following:  
-    - Feature analysis:  
-        - Performed calculations for `correlation coefficient` and `p-value` on all quantitative features and rent  
-        - Further explored the relationship between rent and a categorical feature like tree species.  
-    - Identified and explored outliers and biases that could exist based on borough, performed seperate analysis by borough.  
-    - Created visualizations to further understand data:  
+
+- Feature analysis:  
+  - Performed calculations for `correlation coefficient` and `p-value` on all quantitative features and rent.  
+  - Further explored the relationship between rent and a categorical feature like tree species.  
+
+- Identified and explored outliers and biases that could exist based on borough, performed separate analysis by borough.  
+
+- Created visualizations to further understand data:  
         ![Total Trees in Neighborhoods by Average Rent](visualizations/averageRentTotalTrees.png)
         **key finding:** Every neighborhood except the Bronx exhibits a negative relationship between rent and total trees, indicating that higher-rent neighborhoods tend to have fewer trees.  
         ![Frequency at which each neighborhood is a tree species' most common neighborhood](visualizations/frequencyFavoriteNeighborhoodRarest.png)
