@@ -13,8 +13,8 @@ I also used the Median Asking Rent of a one bedroom apartment in different NYC n
 Pandas, numpy, matplotlib.pylab, seaborn, scipy 
 
 ## Data Preprocessing: 
-My data cleaning included the following tasks: 
-    - In the streeteasy dataset: 
+My data cleaning included the following tasks:   
+    - In the streeteasy dataset:  
         - kept only the rows where area type was listed as neighborhood (Streeteasy also had borough, submarket, city)  
         - created a column calculating the average median rent in 2015 and dropped other rent columns  
         - dropped rows with null values  
@@ -27,16 +27,16 @@ My data cleaning included the following tasks:
     - Grouped data by relevant metrics 
 
 ## EDA: 
-In my exploratory data analysis I did the following: 
-    - Feature analysis: 
+In my exploratory data analysis I did the following:  
+    - Feature analysis:  
         - Performed calculations for `correlation coefficient` and `p-value` on all quantitative features and rent  
-        - Further explored the relationship between rent and a categorical feature like tree species. 
-    - Identified and explored outliers and biases that could exist based on borough, performed seperate analysis by borough. 
-    - Created visualizations to further understand data: 
+        - Further explored the relationship between rent and a categorical feature like tree species.  
+    - Identified and explored outliers and biases that could exist based on borough, performed seperate analysis by borough.  
+    - Created visualizations to further understand data:  
         - ![Total Trees in Neighborhoods by Average Rent](visualizations/averageRentTotalTrees.png)
-        **key finding:** Every neighborhood except the Bronx exhibits a negative relationship between rent and total trees, indicating that higher-rent neighborhoods tend to have fewer trees.
+        **key finding:** Every neighborhood except the Bronx exhibits a negative relationship between rent and total trees, indicating that higher-rent neighborhoods tend to have fewer trees.  
         - ![Frequency at which each neighborhood is a tree species' most common neighborhood](visualizations/frequencyFavoriteNeighborhoodRarest.png)
-        **key finding:** Rarer species of trees are generally equally distributed across neighborhoods. The outlier is East New York, but this is expected as East New York has the most trees by a significant margin. 
+        **key finding:** Rarer species of trees are generally equally distributed across neighborhoods. The outlier is East New York, but this is expected as East New York has the most trees by a significant margin.  
         - ![Median Rent in Manhattan Neighborhoods where a tree species is the most common species of that neighborhood](visualizations/medianRentPopularTree.png)
         **key finding:** this graph indicates that the Japanese Zelkova is the most common tree in Manhattan neighborhoods with lower rent and the Callery Pear is the most common tree in Manhattan neighborhoods with higher rent. However, it was found through further analysis that this pattern was only due to outlier neighborhoods.  
 
